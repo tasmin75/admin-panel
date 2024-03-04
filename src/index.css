@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-layout-sider{
+    background-color: transparent !important;
+    border-right: 1px solid rgb(172, 170, 170); 
+}
+
+.ant-menu-item{
+    margin-bottom: 1.4rem;
+    font-size: 1.2rem;
+    color: rgb(39, 37, 37)!important;
+}
+
+aside {
+    flex: 0 0 200px;
+    max-width: 260px !important;
+    min-width: 260px !important;
+    width: 200px;
+}
+
+ .ant-layout-sider-trigger{
+    display: none !important;
+}
+
+
+.ant-layout-sider-has-trigger{
+    width: 50px !important;
+}
+
+:where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1drr2mu).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background-color: #d2d2d5;
+}
+
+svg.ant-menu-item-icon {
+    font-size: 1.5rem !important;
+}
+
+.backgroundWithImage {
+    background-image: url("https://cdn.wallpapersafari.com/41/68/uhveKj.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundWithImage2 {
+    background-image: url("https://www.wallpaperbetter.com/wallpaper/814/841/316/triangle-abstract-abstract-pattern-green-4K-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundWithImage3 {
+    background-image: url("https://images4.alphacoders.com/109/1095230.jpg");
+    background-size: cover;
+    background-position: center;
+}
